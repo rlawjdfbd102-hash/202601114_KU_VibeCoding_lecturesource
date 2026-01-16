@@ -128,7 +128,7 @@ def submit_answer():
     
     if is_correct:
         st.session_state.score += 1
-
+ 
 def next_question():
     st.session_state.current_question += 1
     st.session_state.selected_answer = None
