@@ -49,6 +49,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.write("**왼쪽 컬럼**")
     st.button("버튼 1", use_container_width=True)
+    
 
 with col2:
     st.write("**오른쪽 컬럼**")
